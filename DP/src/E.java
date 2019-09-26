@@ -8,6 +8,9 @@ public class E {
             int n = in.nextInt();
             double p = in.nextDouble();
 
+            // P(i+1, k) = P(i, k-1) * p
+            // Q(i+1, k) = Q(i, k) + P(i, k) * (1 - p)
+            // sum{ [P(n, k) + Q(n,k)] * k }
 
         }
     }
